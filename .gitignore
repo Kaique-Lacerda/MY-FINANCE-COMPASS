@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build and runtime output
+dist/
+build/
+.vite/
+.output/
+.wrangler/
+coverage/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local editor files
+.vscode/*.code-workspace
+.idea/
